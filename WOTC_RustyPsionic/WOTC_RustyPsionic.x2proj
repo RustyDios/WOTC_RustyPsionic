@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>aded84c1-7d63-4811-9c17-1d59739d9088</Guid>
+    <Name>WOTC_RustyPsionic</Name>
+    <Description>WOTC_RustyPsionic
+
+An updated version of AA Psionic with a class tree that incorporates mod made since that one</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>WOTC_RustyPsionic</AssemblyName>
+    <RootNamespace>WOTC_RustyPsionic</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Content" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\LW_Tuple" />
+    <Folder Include="Src\LW_Tuple\Classes" />
+    <Folder Include="Src\WOTC_RustyPsionic\" />
+    <Folder Include="Src\WOTC_RustyPsionic\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\XComClassData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComContent.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComEncyclopedia.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameBoard.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComLatentPsionics.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComPistolSlot.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComPromotionUIMod.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComRustyPsionic.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComUIModificationWOTC.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\UILibrary_RustyPsionic.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\LatentPsionicsUnlock.int">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ReadMe.txt" />
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Localization\XComGame.int" />
+    <Content Include="Src\LW_Tuple\Classes\LWTuple.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_RustyPsionic\Classes\X2Ability_RustyPsionic.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_RustyPsionic\Classes\X2DownloadableContentInfo_WOTC_RustyPsionic.uc" />
+    <Content Include="Src\WOTC_RustyPsionic\Classes\X2EventListener_PsiIconOnDSLClass.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_RustyPsionic\Classes\X2StrategyElement_RustyPsionic_GTS.uc">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>
